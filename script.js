@@ -19,7 +19,6 @@ weatherButton.addEventListener(
     `)
     .catch(error => weath.innerHTML = `{"cod":"404","message":"city not found."}`)
 
-    zipCode.value = '';
   });
 
   
